@@ -1,0 +1,45 @@
+.taskBox {
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--gray-400);
+    background: var(--gray-500);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.taskBox + .taskBox {
+    margin-top: 0.75rem;
+}
+
+.text {
+    margin: 0 0.75rem;
+    color: var(--gray-100);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.225rem;
+    width: 100%;
+}
+
+.textDone {
+    margin: 0 0.75rem;
+    color: var(--gray-300);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.225rem;
+    text-decoration: line-through;
+    width: 100%;
+}
+
+
+.taskBox button {
+    width: 1.09rem;
+    height: 1.09rem;
+    border: 2px solid var(--blue);
+    background: var(--gray-500);
+    border-radius: 50%;
+}
+
+.input, .trash {
+    cursor: pointer;
+}

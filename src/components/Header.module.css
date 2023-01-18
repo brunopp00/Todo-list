@@ -1,0 +1,35 @@
+header {
+    width: 100%;
+    height: 12.5rem;
+    background-color: var(--gray-700);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 1.375rem;
+    height: 2.25rem;
+    margin-top: 0.25rem;
+}
+
+.alignItems {
+    display: flex;
+    width: 7.875rem;
+    height: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.to, .do {
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.to {
+    color: var(--blue);
+}
+
+.do {
+    color: var(--purpleDark);
+}
