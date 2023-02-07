@@ -1,1 +1,2 @@
-Desafio modulo 1 do ingite.
+
+![App Cover].(./src/assets.Capa.png)
