@@ -1,2 +1,2 @@
 
-![App Cover].(./src/assets.Capa.png)
+![App Cover](./src/assets/Capa.png)
